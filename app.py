@@ -5,8 +5,10 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return """<p>Hello, Shital & Hambira!</p>
-                Welcome to the CI/CD !
+    return """<p>Hello, Shital !</p>
+                Welcome to the CI/CD ! 
+
+                New App Created!! Deployed now
             """
 
 
